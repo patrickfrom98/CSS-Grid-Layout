@@ -25,12 +25,12 @@ body {
 }
 
 .box div {
-  background: #eee;
+  background: #f6f6f6;
   padding: 1em;
 }
 
-.box div:nth-child(odd) {
-  background: #ddd;
+.box div:hover {
+  background: #f2f2f2;
 }
 
 /*
