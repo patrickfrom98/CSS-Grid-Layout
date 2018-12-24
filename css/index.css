@@ -19,6 +19,18 @@ body {
   background: #ddd;
 }
 
+/*
+* Large Tablet / Small PC
+*/
+@media screen and (max-width: 1400px) {
+    .wrapper {
+        width: 90%;
+    }
+}
+
+/*
+* Tablet
+*/
 @media screen and (max-width: 890px) {
     .wrapper {
         grid-template-columns: repeat(2, 1fr);
@@ -26,6 +38,9 @@ body {
     }
 }
 
+/*
+* Mobile
+*/
 @media screen and (max-width: 480px) {
     .wrapper {
         grid-template-columns: repeat(1, 1fr);
