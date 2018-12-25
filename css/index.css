@@ -3,6 +3,11 @@ body {
   padding: 0;
 }
 
+h3 {
+    font-size: 1.2rem;
+    font-family: 'Staatliches', cursive;
+}
+
 .wrapper {
     margin: 0;
     padding: 1em;
@@ -44,6 +49,10 @@ body {
     .box.col-2-1fr {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    h3 {
+        font-size: 1.1rem;
+    }
 }
 
 /*
@@ -73,6 +82,10 @@ body {
 
     .box.col-2-1fr {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    h3 {
+        font-size: 1.0rem;
     }
 }
 
